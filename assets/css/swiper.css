@@ -1,0 +1,40 @@
+body {
+        background: #eee;
+        font-family: 'Source Sans Pro', sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
+		line-height: 1.75em;
+        color:#000;
+     
+    }
+.categories {text-align:center}
+.categories span {
+    padding: 10px 32px;
+    cursor: pointer;
+}
+.categories span.active {
+    font-family: bold;
+}
+    .swiper-container {
+        width: 100%;
+        /* height: 690px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 10px;
+        background: #fff;
+        max-width: 360px;
+    min-width: 200px;
+        /* Center slide text vertically */
+        
+        
+       
+        
+        
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 50px;
+    }
