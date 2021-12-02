@@ -1,0 +1,177 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+  body {
+    font-family: "Lato", "FontAwesome", sans-serif;
+    line-height: 1.7;
+  }
+  .card-body {
+    
+    position: relative;
+    max-width: 360px;
+    min-width: 200px;
+    width: 100%;
+    border: 1px lightgray solid;
+    height: 290px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+  }
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 7%;
+    line-height: 1.2;
+    font-size: 9px;
+    transition: inherit;
+  }
+  .card-footer__post-time {
+    margin: 0px 3vw 0px 1vw;
+    color: gray;
+    letter-spacing: 1.1px;
+    padding-top: 5px;
+  }
+  .card-footer__comments-number {
+    color: gray;
+    letter-spacing: 1.1px;
+  }
+  .card-header {
+    background: url('../авто/audi-a6.jpeg.jpg') no-repeat center/cover;
+    position: relative;
+    height: 60%;
+    transition: inherit;
+  }
+  .audi2{
+    background: url('../авто/audi_a8.jpeg') no-repeat center/cover;
+  }
+  .audi3{
+    background: url('../авто/audi_rs7.jpeg') no-repeat center/cover;
+  }
+
+  .audi4{
+    background: url('../авто/audi-r8.jpeg') no-repeat center/cover;
+  }
+  .audi5{
+    background: url('../авто/audi-sq7.jpeg') no-repeat center/cover;
+  }
+  .bmw{
+    background: url('../авто/bmw_z4.jpeg') no-repeat center/cover;
+  }
+  .bmw2{
+    background: url('../авто/bmw_850.jpeg') no-repeat center/cover;
+  }
+  .bmw3{
+    background: url('../авто/bmw_530.jpeg') no-repeat center/cover;
+  }
+  .bmw4{
+    background: url('../авто/bmw_x5.jpeg') no-repeat center/cover;
+  }
+  .bmw5{
+    background: url('../авто/bmw_m5.jpeg') no-repeat center/cover;
+  }
+  .nissan{
+    background: url('../авто/nissan_gt-r.jpg') no-repeat center/cover;
+  }
+  .nissan2{
+    background: url('../авто/nissan_qashqai.jpeg') no-repeat center/cover;
+  }
+  
+  .nissan3{
+    background: url('../авто/nissan_maxima.jpeg') no-repeat center/cover;
+  }
+  .ford{
+    background: url('../авто/ford_galaxy.jpeg') no-repeat center/cover;
+  }
+  .ford2{
+    background: url('../авто/ford_fiesta.jpeg') no-repeat center/cover;
+  }
+  .for3{
+    background: url('../авто/ford_f-150.jpeg') no-repeat center/cover;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .card-header__description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    height: 35px;
+    padding: 10px;
+    background: #e74c3c;
+    color: white;
+    
+  }
+  .card-details {
+    overflow: hidden;
+    height: 30%;
+    padding: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    transition: inherit;
+  }
+  .card-details__title {
+    color: black;
+    margin: 5px 0 10px 0;
+  }
+  .card-details__subtitle {
+    color: red;
+   
+    font-weight: thin;
+    margin-bottom: 30px;
+  }
+  .card-details__paragraph {
+    color: black;
+  }
+
+  /* Hover Effect */
+  .card-body--hover:hover {
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  }
+  .card-body--hover:hover > .card-header {
+    height: 40%;
+    filter:contrast(30%);
+  }
+  .card-body--hover:hover > .card-details {
+    height: 55%;
+  }
+  .card-body--hover:hover > .card-footer {
+    height: 5%;
+  }
+
+  /* Media Query to adjust the font on small screens */
+  @media screen and (max-width: 300px) {
+    .card-details__title {
+      font-size: 15px;
+    }
+    .card-details__subtitle {
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+    .card-body--hover:hover .card-details__subtitle {
+      margin-bottom: 10px;
+    }
+    .card-details__paragraph {
+      font-size: 15px;
+    }
+  }
